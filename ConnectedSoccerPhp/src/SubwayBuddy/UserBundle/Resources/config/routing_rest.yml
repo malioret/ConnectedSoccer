@@ -1,0 +1,15 @@
+users:
+    type:   rest
+    resource:   "@SubwayBuddyUserBundle/Controller/UserController.php"
+    
+recherche:
+    type:   rest
+    resource:   "@SubwayBuddyUserBundle/Controller/RechercheController.php"
+    
+    
+
+
+    
+website_test:
+    path:     /test
+    defaults: { _controller: SubwayBuddyUserBundle:Default:index }

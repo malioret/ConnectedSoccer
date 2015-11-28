@@ -1,0 +1,3 @@
+soccer_event_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: SoccerEventBundle:Default:index }

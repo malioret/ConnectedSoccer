@@ -1,0 +1,8 @@
+events:
+    type:   rest
+    resource:   "@SoccerEventBundle/Controller/EventController.php"
+    
+
+assigner_events:
+    type:   rest
+    resource:   "@SoccerEventBundle/Controller/AssignerEventController.php"

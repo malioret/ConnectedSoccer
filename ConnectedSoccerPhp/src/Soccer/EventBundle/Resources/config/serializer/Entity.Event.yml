@@ -1,0 +1,12 @@
+Soccer\EventBundle\Entity\Event:
+    exclusion_policy: ALL
+    properties:
+        id:
+            expose: true
+        nom:
+            expose: true
+        lieu:
+            expose: true
+        date:
+            expose: true
+       

@@ -1,0 +1,8 @@
+soccer_landing_test:
+    path:     /hello/{name}
+    defaults: { _controller: SoccerLandingBundle:Default:index }
+    
+
+soccer_landing_home:
+    path:     /
+    defaults: { _controller: SoccerLandingBundle:Home:index }

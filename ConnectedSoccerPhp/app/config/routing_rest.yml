@@ -1,0 +1,14 @@
+
+
+
+    
+    
+Rest_User : 
+  type : rest
+  resource: "@SubwayBuddyUserBundle/Resources/config/routing_rest.yml"
+  
+  
+    
+Rest_Event : 
+  type : rest
+  resource: "@SoccerEventBundle/Resources/config/routing_rest.yml"

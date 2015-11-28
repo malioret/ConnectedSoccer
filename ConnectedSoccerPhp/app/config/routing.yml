@@ -1,0 +1,34 @@
+soccer_landing:
+    resource: "@SoccerLandingBundle/Resources/config/routing.yml"
+    prefix:   /
+
+soccer_event:
+    resource: "@SoccerEventBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
+subway_buddy_user:
+    resource: "@SubwayBuddyUserBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+admin_area:
+    resource: "@SonataAdminBundle/Resources/config/routing/sonata_admin.xml"
+    prefix: /admin
+
+_sonata_admin:
+    resource: .
+    type: sonata_admin
+    prefix: /admin
+
+
+    
+rest : 
+  type : rest 
+  resource : "routing_rest.yml"
+  prefix : /api
+  
+  

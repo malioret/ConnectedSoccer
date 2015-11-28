@@ -1,0 +1,62 @@
+
+
+     
+{% extends "::layout.html.twig" %}
+
+
+    {% block title %}
+    <title id="title" data-id="admin">Home Connected Soccer</title>
+    {% endblock %}
+    
+    {% block styleheets %}
+        
+      
+        
+    {% endblock %}
+       
+    
+    {% block header %}
+    
+           {{ include("SoccerLandingBundle:Base:header.html.twig") }}
+    
+    {% endblock %}
+ 
+    
+    
+   
+    
+    {% block body %}
+   
+        
+    
+        {{ include("SoccerLandingBundle:Home:home.html.twig") }}
+    
+   
+        
+  {% endblock %}
+    
+  
+  {% block javascript %}
+      
+       <script>
+        $(document).ready(function() {
+            
+           
+          
+                
+           
+		
+
+        });
+        
+            
+
+       </script>
+       
+      
+
+  {% endblock %}
+  
+{% block footer %}
+   {{ include("SoccerLandingBundle:Base:footer.html.twig") }}
+    {% endblock %}
